@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>
+        왜 REACT와 같은 라이브러리를 사용할까요? <br />
+        아래와 같은 이유들이 있습니다.
+      </h1>
+      <h5>
+        1. 정적인 정보보다는 동적인 정보가 중요해지면서 JS의 중요성이
+        커졌습니다.
+      </h5>
+      <h5>
+        2. 실제 같은 HTML 파일 내에서 특정 요소만 바뀌는 경우, 새로운 HTML을
+        받아오기 보다 특정 요소에 대한 DOM만 바꿔주면 되었습니다. 이는 REACT에서
+        Virtual DOM을 통해 구현되었습니다.
+      </h5>
+      <h5>3. 컴포넌트 단위개발을 쉽게 합니다.</h5>
+      <h5>4. 개발을 진행하면서 수정된 사항을 쉽게 볼 수 있습니다.</h5>
+      <h5>5. 배포가 쉽습니다.</h5>
+    </div>
+    <!-- <script type="text/javascript" src="./js/webserver.js"></script> -->
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/service.js"></script>
+    <script type="module" src="./js/xmlLogic.js"></script>
+  </body>
+</html>

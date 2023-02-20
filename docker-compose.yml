@@ -1,0 +1,6 @@
+services:
+  frontend:
+    container_name: nginx-test
+    build: .
+    ports:
+      - "9090:80"

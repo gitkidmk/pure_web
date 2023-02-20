@@ -1,0 +1,31 @@
+#root {
+  width: 100%;
+}
+
+h1 {
+  background-color: #fdedc0;
+}
+
+button {
+  cursor: pointer;
+  background-color: #dbd8d8;
+}
+button:hover {
+  background-color: grey;
+}
+
+.great-element {
+  background-color: rgb(166, 166, 233);
+  width: fit-content;
+}
+
+.good-element {
+  background-color: rgb(198, 233, 166);
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
